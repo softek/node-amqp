@@ -1,8 +1,8 @@
-{ "name" : "amqp"
+﻿{ "name" : "amqp"
 , "description" : "AMQP driver for node"
 , "keywords" : [ "amqp" ]
 , "version" : "0.1.4"
-, "preferGlobal" : true
+, "preferGlobal" : false
 , "author" : { "name" : "Ryan Dahl" }
 , "contributors" :
   [ { "name" : "Vasili Sviridov" }
