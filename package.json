@@ -1,4 +1,4 @@
-﻿{ "name" : "amqp"
+{ "name" : "amqp"
 , "description" : "AMQP driver for node"
 , "keywords" : [ "amqp" ]
 , "version" : "0.1.4"
@@ -10,7 +10,7 @@
   , { "name" : "Vincent Desjardins" }
   , { "name" : "Liang-Chi Hsieh" }
   , { "name" : "Tim Baga" }
-  , { "name" : "Stéphane Alnet" }
+  , { "name" : "St�phane Alnet" }
   , { "name" : "Alen Mujezinovic" }
   , { "name" : "Michael Bridgen" }
   , { "name" : "Chris Bond" }
