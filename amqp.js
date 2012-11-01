@@ -154,7 +154,7 @@ function AMQPParser (version, type) {
       frameChannel = parseInt(fh, 2);
       var frameSize = parseInt(fh, 4);
       fh.used = 0; // for reuse
-      if (frameSize > maxFrameBuffer) {
+      if (frameSize > maxFrameBuffer || isNaN(frameSize)) {
         self.throwError("Oversized frame " + frameSize);
       }
       frameBuffer = new Buffer(frameSize);
